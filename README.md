@@ -1,6 +1,6 @@
 # Práctica 2 — Backend Python con FastAPI, Arquitectura Limpia e IA
 
-Backend completo en FastAPI que reemplaza el servidor original, manteniendo el contrato de API que consume el frontend Svelte 5 existente. Cubre los 10 puntos del enunciado.
+Backend completo en FastAPI que reemplaza el servidor original, manteniendo el contrato de API que consume el frontend Svelte 5 existente.
 
 ## Contrato de API detectado en el frontend
 
