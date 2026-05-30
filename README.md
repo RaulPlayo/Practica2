@@ -3,6 +3,8 @@
 Proyecto de la Practica 2 de Programacion Web. El frontend esta hecho con Svelte 5 y el
 backend se ha reemplazado por una API en Python con FastAPI.
 
+![Panel principal](/backend/uploads/panel.png)
+
 ## Backend
 
 ```bash
@@ -23,6 +25,8 @@ Credenciales de prueba:
 - Admin: `admin` / `admin123`
 - Usuario: `usuario` / `usuario123`
 
+![Panel de administrador](/backend/uploads/panelAdmin.png)
+
 ## Frontend
 
 ```bash
@@ -32,6 +36,8 @@ npm run dev
 ```
 
 Frontend: `http://localhost:8000`
+
+![Panel de administrador](/backend/uploads/carrito.png)
 
 ## Funcionalidades principales
 
