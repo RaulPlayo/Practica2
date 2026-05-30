@@ -1,0 +1,264 @@
+﻿[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+node.exe : 17:47:13 
+[vite-plugin-svelte] s
+rc/pages/AdminPage.sve
+lte:146:2 Visible, 
+non-interactive 
+elements with a click 
+event must be 
+accompanied by a 
+keyboard event 
+handler. Consider 
+whether an 
+interactive element 
+such as `<button 
+type="button">` or 
+`<a>` might be more 
+appropriate
+En línea: 1 Carácter: 
+1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (17:47:13 [   
+ vite-...ore appro    
+priate:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+https://svelte.dev/e/a
+11y_click_events_have_
+key_events
+144: 
+145: {#if 
+showDeleteConfirm}
+146:   <div class="con
+firm-dialog-overlay" 
+onclick={() => 
+(showDeleteConfirm = 
+null)}>
+             ^
+147:     <div class="c
+onfirm-dialog" 
+onclick={(e) => 
+e.stopPropagation()}>
+148:       
+<h3>Confirmar 
+eliminaci├│n</h3>
+17:47:13 
+[vite-plugin-svelte] s
+rc/pages/AdminPage.sve
+lte:146:2 `<div>` 
+with a click handler 
+must have an ARIA role
+https://svelte.dev/e/a
+11y_no_static_element_
+interactions
+144: 
+145: {#if 
+showDeleteConfirm}
+146:   <div class="con
+firm-dialog-overlay" 
+onclick={() => 
+(showDeleteConfirm = 
+null)}>
+             ^
+147:     <div class="c
+onfirm-dialog" 
+onclick={(e) => 
+e.stopPropagation()}>
+148:       
+<h3>Confirmar 
+eliminaci├│n</h3>
+17:47:13 
+[vite-plugin-svelte] s
+rc/pages/AdminPage.sve
+lte:147:4 Visible, 
+non-interactive 
+elements with a click 
+event must be 
+accompanied by a 
+keyboard event 
+handler. Consider 
+whether an 
+interactive element 
+such as `<button 
+type="button">` or 
+`<a>` might be more 
+appropriate
+https://svelte.dev/e/a
+11y_click_events_have_
+key_events
+145: {#if 
+showDeleteConfirm}
+146:   <div class="con
+firm-dialog-overlay" 
+onclick={() => 
+(showDeleteConfirm = 
+null)}>
+147:     <div class="c
+onfirm-dialog" 
+onclick={(e) => 
+e.stopPropagation()}>
+               ^
+148:       
+<h3>Confirmar 
+eliminaci├│n</h3>
+149:       
+<p>┬┐Est├ís seguro de 
+que deseas eliminar 
+este usuario?</p>
+17:47:13 
+[vite-plugin-svelte] s
+rc/pages/AdminPage.sve
+lte:147:4 `<div>` 
+with a click handler 
+must have an ARIA role
+https://svelte.dev/e/a
+11y_no_static_element_
+interactions
+145: {#if 
+showDeleteConfirm}
+146:   <div class="con
+firm-dialog-overlay" 
+onclick={() => 
+(showDeleteConfirm = 
+null)}>
+147:     <div class="c
+onfirm-dialog" 
+onclick={(e) => 
+e.stopPropagation()}>
+               ^
+148:       
+<h3>Confirmar 
+eliminaci├│n</h3>
+149:       
+<p>┬┐Est├ís seguro de 
+que deseas eliminar 
+este usuario?</p>
+17:47:13 
+[vite-plugin-svelte] s
+rc/pages/ProfilePage.s
+velte:16:8 A form 
+label must be 
+associated with a 
+control
+https://svelte.dev/e/a
+11y_label_has_associat
+ed_control
+14:     <div 
+class="profile-info">
+15:       <div 
+class="info-row">
+16:         <label>Usu
+ario:</label>
+                      
+             ^
+17:         <span>{aut
+hStore.user?.username}
+</span>
+18:       </div>
+17:47:13 
+[vite-plugin-svelte] s
+rc/pages/ProfilePage.s
+velte:21:8 A form 
+label must be 
+associated with a 
+control
+https://svelte.dev/e/a
+11y_label_has_associat
+ed_control
+19:       
+20:       <div 
+class="info-row">
+21:         
+<label>Rol:</label>
+                      
+         ^
+22:         <span>
+23:           
+{authStore.user?.role 
+=== 'admin' ? 
+'Administrador' : 
+'Usuario'}
+17:47:13 
+[vite-plugin-svelte] s
+rc/pages/ProfilePage.s
+velte:28:8 A form 
+label must be 
+associated with a 
+control
+https://svelte.dev/e/a
+11y_label_has_associat
+ed_control
+26: 
+27:       <div 
+class="info-row">
+28:         
+<label>ID:</label>
+                      
+        ^
+29:         <span clas
+s="user-id">{authStore
+.user?.id}</span>
+30:       </div>
+[32mÔ£ô[39m 20 modules transformed.
+[31mx[39m Build 
+failed in 452ms
+[31merror during 
+build:
+[31mCould not 
+resolve 
+"./stores/store.js" 
+from 
+"src/App.svelte"[31m
+file: [36mC:/Users/op
+s63/Documents/COSAS_DE
+_CLASE/PROGRA_WEB/PROG
+RAWEB2/Practica1/front
+end/src/App.svelte[31
+m
+    at getRollupError 
+(file:///C:/Users/ops6
+3/Documents/COSAS_DE_C
+LASE/PROGRA_WEB/PROGRA
+WEB2/Practica1/fronten
+d/node_modules/rollup/
+dist/es/shared/parseAs
+t.js:406:41)
+    at error (file:///
+C:/Users/ops63/Documen
+ts/COSAS_DE_CLASE/PROG
+RA_WEB/PROGRAWEB2/Prac
+tica1/frontend/node_mo
+dules/rollup/dist/es/s
+hared/parseAst.js:402:
+42)
+    at ModuleLoader.ha
+ndleInvalidResolvedId 
+(file:///C:/Users/ops6
+3/Documents/COSAS_DE_C
+LASE/PROGRA_WEB/PROGRA
+WEB2/Practica1/fronten
+d/node_modules/rollup/
+dist/es/shared/node-en
+try.js:21765:24)
+    at file:///C:/User
+s/ops63/Documents/COSA
+S_DE_CLASE/PROGRA_WEB/
+PROGRAWEB2/Practica1/f
+rontend/node_modules/r
+ollup/dist/es/shared/n
+ode-entry.js:21725:26
+[39m
