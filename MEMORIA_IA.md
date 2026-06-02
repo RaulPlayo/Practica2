@@ -192,7 +192,7 @@ de productos para aceptar `FormData`, imagen opcional y estado.
 
 ### Error 1 - Uso incorrecto del header Authorization
 
-La IA genero dependencias como:
+La IA generó dependencias como:
 
 ```python
 def get_current_user(authorization: str = None):
